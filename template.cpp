@@ -1,6 +1,7 @@
-//Lord Escanor : Sin Of Pride
-//When I was writing this, only God and I knew what the code meant,
-//But now, only God knows.
+//+LNCT++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+//+------------------Lord Escanor : Sin Of Pride----------------------+//
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++BHOPAL+//
+
 #include <bits/stdc++.h>
 
 #define fo(i, n) for (int i = 0; i < int(n); i++)
@@ -43,12 +44,12 @@ const ll INF64 = ll(1e18);
 const ld EPS = 1e-9, PI = 3.1415926535897932384626433832795;
 
 void solve() {
-   
+
 }
 
 int main() {
     fastIO;
-//#ifndef ONLINE_JUDGE
+//#ifdef LOCAL
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 //#endif
@@ -57,9 +58,11 @@ int main() {
     while (t--) {
         solve();
     }
-#ifndef ONLINE_JUDGE
+#ifdef LOCAL
     cout<<"\nTime Elapsed: " << 1.0*clock() / CLOCKS_PER_SEC << " sec\n";
 #endif
 
     return 0;
 }
+
+
